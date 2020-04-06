@@ -1,3 +1,11 @@
+### Before You Begin you must create a config.js file with your api key for mapbox
+
+#### you can sign up for a key at the following site https://account.mapbox.com/auth/signup/?route-to=%22https://account.mapbox.com/%22
+
+in the config.js file the format should be as follows
+
+const API_KEY ="Your Key Here";
+
 # Leaflet Homework - Visualizing Data with Leaflet
 
 ## Background
@@ -40,15 +48,15 @@ Your first task is to visualize an earthquake data set.
 
    Create a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
 
-   * Your data markers should reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
+   - Your data markers should reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
 
-   * Include popups that provide additional information about the earthquake when a marker is clicked.
+   - Include popups that provide additional information about the earthquake when a marker is clicked.
 
-   * Create a legend that will provide context for your map data.
+   - Create a legend that will provide context for your map data.
 
-   * Your visualization should look something like the map above.
+   - Your visualization should look something like the map above.
 
-- - -
+---
 
 ### Level 2: More Data (Optional)
 
@@ -58,23 +66,23 @@ The USGS wants you to plot a second data set on your map to illustrate the relat
 
 In this step we are going to..
 
-* Plot a second data set on our map.
+- Plot a second data set on our map.
 
-* Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
+- Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
 
-* Add layer controls to our map.
+- Add layer controls to our map.
 
-- - -
+---
 
 ### Assessment
 
 Your final product will be assessed on the following metrics:
 
-* Completion of assigned tasks
+- Completion of assigned tasks
 
-* Visual appearance
+- Visual appearance
 
-* Professionalism
+- Professionalism
 
 **Good luck!**
 
